@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -55,7 +56,6 @@ ul {
   padding: 100px 20px;
   background: linear-gradient(to right, #120024, #3b0066);
   background: url("https://tse1.mm.bing.net/th/id/OIP.cryqLHQr58ImxjikTBX4RAHaET?rs=1&pid=ImgDetMain&o=7&rm=3") center/cover no-repeat;
-
 }
 
 .banner p {
@@ -177,12 +177,12 @@ ul {
 }
 
 .foot1 p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
 }
 
 .foot1 h2 {
-  font-size: 2.1rem;
+  font-size: 1.1rem;
   text-transform: capitalize;
   margin-bottom: 5%;
   text-align: center;
@@ -195,13 +195,20 @@ ul {
 
 .foot1 a {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 0.9rem;
   text-transform: capitalize;
   color: white;
 }
 
+.foot1 a:hover {
+  text-decoration: underline;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: rgb(72, 156, 224);
+}
+
 .foot1 i {
-  font-size: 2rem;
+  font-size: 1rem;
   color: var(--accent-color);
 }
 
@@ -212,7 +219,7 @@ ul {
 }
 
 .foot2 {
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-align: center;
   background-color: black;
   color: white;
